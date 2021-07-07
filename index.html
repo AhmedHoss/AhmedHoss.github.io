@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ahmed H. Abdelfattah</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">projects</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Ahmed H. Abdelfattah.</h1>
+        <h2>Software Developer / Photographer / Human</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+            <tr>
+                <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"
+                        href="https://www.facebook.com/Shiiikaaaa/"><i class="fab fa-facebook"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i
+                            class="fab fa-twitter"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"
+                        href="https://www.instagram.com/a_shikaa/"><i class="fab fa-instagram"></i></a></td>
+                <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i
+                            class="fab fa-dribbble"></i></a></td>
+            </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>Projects.</h1>
+        <section>
+            <h2>Online Shopping Web Application </h2>
+            <p>
+                Developed and deployed both the front and back end of a web app using the MERN Stack.
+                Explored the major phases of the Software Lifecycle, including analysis, specification, design,
+                implementation, and
+                testing
+                Gained experience in software project management, requirements, analysis,and design, as well as
+                procedural maturity,
+                social, ethical, cultural, and safety issues in deployment.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;React</div>
+                <div><i class="fas fa-circle"></i>&nbsp;MongoDB</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Agile</div>
+            </div>
+        </section>
+        <section>
+            <h2>Legacy-OpenGl Platform-er Game</h2>
+            <p>
+                Created a 2D platform game using OpenGl API.
+                Implemented graphics primitives, solid modeling ,projection (perspective, parallel), 2D
+                transformations,curves and surfaces.
+                Applied several mapping, lighting and shading techniques.
+                Handled collisions and hidden surface removal.
+
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;OpenGl</div>
+            </div>
+        </section>
+        <section>
+            <h2>Java DragonBallZ 2D fighting Game</h2>
+            <p>
+                Practiced the four main principles of Object-Oriented-Programming, and used JFrames to create a basic UI
+                consisting
+                of a map/grid screen and a battle screen.
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Java</div>
+            </div>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+        <h1>about.</h1>
+        <section>
+            <h2>about me</h2>
+            <p>
+                Highly motivated soon to graduate, Egyptian American, computer engineer looking forward to starting his
+                career by
+                expanding his horizon with professional experience. A team player, yet an independent character, who is
+                not afraid
+                of challenges, is capable of truly innovative thinking and complex problem solving
+            </p>
+        </section>
+        <section>
+            <h2>skills</h2>
+            <p>
+                Java, Python, GO, SQL, JavaScript, C++, C, Haskell, React, Angular, JSON, MongoDB, Express, HTML5, CSS,
+                JavaScript, JQuery, Node, Github, UNIX, Docker,OpenGl, LaTex, SWI-Prolog, Matlab, Microsoft Office.
+
+
+            </p>
+        </section>
+    </div>
+    <div id="contact_container" class="container">
+        <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+        <h1>contact.</h1>
+        <p>Ahmed.hos.fattah@gmail.com</p>
+        <section>
+            <h3>contact me</h3>
+            <p>
+            <form>
+
+                <input type="text" placeholder="name" required>
+
+                <input type="email" placeholder="email" required><br>
+
+                <textarea placeholder="your message" required rows="5"></textarea><br>
+                <button class="btn_one" onclick="myFunction()">send</button>
+                <script>
+                    function myFunction() {
+                        alert("This feature is not functioning properly yet\nplease contact me on my email instead:\nAhmed.hos.fattah@gmail.com");
+                    }
+                </script>
+            </form>
+            </p>
+        </section>
+    </div>
+    <div id="footer">
+        made on earth by a human <br> <a href="https://google.com">AhmedHossam.</a>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
