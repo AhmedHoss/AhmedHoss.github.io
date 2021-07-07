@@ -132,19 +132,15 @@
         <section>
             <h3>contact me</h3>
             <p>
-            <form>
+            <form class="gform" method="POST" action="https://formspree.io/f/xvodqjpz">
 
-                <input type="text" placeholder="name" required>
+                <input name="name" type="text" placeholder="name" required>
 
-                <input type="email" placeholder="email" required><br>
+                <input name="email" type="email" placeholder="email" required><br>
 
-                <textarea placeholder="your message" required rows="5"></textarea><br>
-                <button class="btn_one" onclick="myFunction()">send</button>
-                <script>
-                    function myFunction() {
-                        alert("This feature is not functioning properly yet\nplease contact me on my email instead:\nAhmed.hos.fattah@gmail.com");
-                    }
-                </script>
+                <textarea name="message" placeholder="your message" required rows="5"></textarea><br>
+                <button class="btn_one">send</button>
+
             </form>
             </p>
         </section>
